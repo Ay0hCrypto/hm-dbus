@@ -5,4 +5,3 @@ COPY bluetooth-dbus.conf /etc/dbus-1/system.d/
 COPY pidfile.sh /usr/src/
 
 CMD [ "/bin/bash", "/usr/src/pidfile.sh" ]
-
