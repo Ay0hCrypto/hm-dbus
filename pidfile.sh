@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm -f /var/run/dbus/pid
+rm -f /run/dbus/pid
