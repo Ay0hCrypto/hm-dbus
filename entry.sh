@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm -f /run/dbus/pid
+rm -f /var/run/dbus/pid
 
 echo "balenaBlocks dbus version: $(cat VERSION)"
 
