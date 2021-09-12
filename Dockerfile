@@ -1,4 +1,4 @@
-FROM balenablocks/dbus:rpi-0.0.2
+FROM balenablocks/dbus:aarch64-0.0.2
 
 COPY *.conf ./system.d/
 COPY entry.sh ./
