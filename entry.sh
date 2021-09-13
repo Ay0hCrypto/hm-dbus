@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rm -rf /run/dbus/pid
-rm -rf /host/run
-mkdir -p /host/run
-ln -s /run/dbus /host/run/dbus
+rm -rf /run/test/dbus/pid
+rm -rf /host/run/
+mkdir -p /host/run/test
+ln -s /run/test/dbus /host/run/test/dbus
 
 echo "balenaBlocks dbus version: $(cat VERSION)"
 
